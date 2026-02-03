@@ -1,12 +1,11 @@
 # Intel-Subsidary-Assignment
----
-#Data Structures – Tree Insertion Algorithms
+# Data Structures – Tree Insertion Algorithms
 
 This repository contains C++ implementations of Binary Search Tree (BST) insertion and Red-Black Tree insertion as part of a Data Structures and Algorithms assignment.
 
 The aim of this project is to understand how different tree-based data structures handle insertion and how balancing affects performance.
 
-##Binary Search Tree (BST) Insertion
+## Binary Search Tree (BST) Insertion
 
 The Binary Search Tree insertion algorithm inserts elements by maintaining the BST property:
 
@@ -22,7 +21,7 @@ Best/Average case: O(log n)
 
 Worst case (skewed tree): O(n)
 
-##Red-Black Tree Insertion
+## Red-Black Tree Insertion
 
 The Red-Black Tree insertion follows the standard algorithm described in Introduction to Algorithms (CLRS).
 A new node is first inserted as in a normal BST and then recolored and rotated to maintain the red-black properties.
